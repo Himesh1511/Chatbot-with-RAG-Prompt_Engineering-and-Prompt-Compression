@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+python-multipart
+requests
+sentence-transformers
+langchain
+langchain-community
+langchain-qdrant
+langchain-groq
+PyMuPDF
+faiss-cpu
