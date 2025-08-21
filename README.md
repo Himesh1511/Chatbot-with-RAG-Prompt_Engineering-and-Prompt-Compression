@@ -1,8 +1,8 @@
-#Coding AI Assistant
+Coding AI Assistant
 
 An AI-powered coding assistant that combines RAG (Retrieval-Augmented Generation), advanced prompting strategies, and prompt compression to provide smarter, context-aware code help. It uses Groq LLMs, LangChain, and Qdrant for efficient retrieval and fast inference.
 
-#Features
+Features
 
 Context-Aware Assistance → Uses RAG with Qdrant to fetch relevant context from uploaded files (code, PDFs, text).
 
@@ -16,7 +16,7 @@ Memory Management → Stores sessions, messages, uploaded files, and contextual 
 
 LLM Integration → Powered by Groq-hosted models like LLaMA 3 and Gemma for blazing fast responses.
 
-#Tech Stack
+Tech Stack
 
 Backend: FastAPI
 
@@ -28,7 +28,7 @@ AI/ML: LangChain, LangGraph, HuggingFace Embeddings, Groq LLM API
 
 Utilities: AsyncIO, FPDF (for exporting if needed)
 
-#Project Structure
+Project Structure
 Chatbot-with-RAG-Prompt_Engineering-and-Prompt-Compression/
 │── backend/
 │   ├── main.py                # FastAPI entry point, API routes & SSE
@@ -44,7 +44,7 @@ Chatbot-with-RAG-Prompt_Engineering-and-Prompt-Compression/
 │   ├── script.js              # Frontend logic (SSE, API calls)
 │   ├── style.css              # Styling
 
-#Setup & Run
+Setup & Run
 1. Clone the repo
 git clone https://github.com/Himesh1511/Chatbot-with-RAG-Prompt_Engineering-and-Prompt-Compression.git
 cd Coding-AI-Assistant
@@ -72,7 +72,7 @@ setx GROQ_API_KEY "your_api_key"
 5. Start the backend
 uvicorn main:app --reload --port 8000
 
-#Future Improvements
+Future Improvements
 
 VS Code / browser extension integration.
 
